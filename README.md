@@ -1,6 +1,3 @@
-# ubihard-survey
-A static survey page without a submit backend.
-
 # Ubihard Survey Form
 A static survey page without a submit backend.<br /><br />
 Main purpose of this project is to meet the following user stories related [**freeCodeCamp**](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form) challenge.
