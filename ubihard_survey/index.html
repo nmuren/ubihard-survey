@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Ubihard Customer Survey</title>
+<link href="css/index.css" rel="stylesheet" type="text/css">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+<main id="main" class="container mt-5 mb-3 text-white ">
+  <header>
+    <div id="title-div" class="text-center">
+      <h1 id="title">Ubihard Customer Survey</h1>
+      <p id="description">Thank you for taking the time to help us improve our products </p>
+    </div>
+  </header>
+  <div id="form-div" class="my-3 p-4 bg-dark rounded shadow" >
+    <form class="needs-validation" action="#">
+      <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+        <input id="name" class="form-control" name="name" placeholder="Enter your name" type="text" required>
+      </div>
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input id="email" class="form-control" name="email" placeholder="Enter your email" type="email" required>
+      </div>
+      <div class="form-group">
+        <label id="number-label" for="number">Age</label>
+        <input id="number" class="form-control" name="age" value="21" placeholder="Age" type="number" min="1" max="120">
+      </div>
+      <div class="form-group">
+        <label id="dropdown-label" for="dropdown">Your favourite <strong>Ubihard</strong> game</label>
+        <select id="dropdown" class="form-control" name="favourite-game" required>
+          <option disabled selected value>Select your favourite</option>
+          <option value="game1">Watch Dogs Series</option>
+          <option value="game2">Assassin's Creed Series</option>
+          <option value="game3">Tom Clancy's Series</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <p>Would you recommend <strong>Ubihard</strong> to a friend?</p>
+        <div class="form-check-inline">
+          <label>
+            <input name="user-recommend" value="definitely" type="radio" checked>
+            Definitely</label>
+        </div>
+        <div class="form-check-inline">
+          <label>
+            <input name="user-recommend" value="maybe" type="radio">
+            Maybe</label>
+        </div>
+        <div class="form-check-inline">
+          <label>
+            <input name="user-recommend" value="not-sure" type="radio">
+            Not sure</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>What would you like to see improved? <span class="small">(Check all that apply)</span></label>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" name="prefer" value="feature" type="checkbox">
+            Gameplay Features</label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" name="prefer" value="storyline" type="checkbox">
+            Storyline</label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" name="prefer" value="side-content" type="checkbox">
+            Side content</label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" name="prefer" value="graphics" type="checkbox">
+            Graphics</label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" name="prefer" value="sound" type="checkbox">
+            Sound system</label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" name="prefer" value="nothing" type="checkbox">
+            Nothing</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="comments">Any comments or suggestions? </label>
+        <textarea id="comments" class="form-control" rows="3" name="comments" placeholder="Enter your comments here..."></textarea>
+      </div>
+      <div>
+        <button id="submit" class="btn btn-block btn-success" value="submit" onClick="">Submit</button>
+      </div>
+    </form>
+  </div>
+</main>
+</body>
+</html>

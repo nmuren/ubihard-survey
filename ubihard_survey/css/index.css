@@ -1,0 +1,20 @@
+/* CSS Document */
+body {
+    background: linear-gradient(115deg, rgba(58, 58, 158, 0.6), rgba(136, 136, 206, 0.7)), url("../assets/images/ac_valhalla.jpeg");
+    /*background: linear-gradient(115deg, rgba(58, 58, 158, 0.6), rgba(136, 136, 206, 0.7)), url("https://www.pcgamesn.com/wp-content/uploads/2020/04/assassins-creed-valhalla-gameplay.jpeg");*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#form-div {
+    background: rgba(52, 58, 64, 0.8) !important;
+    font-weight: 600;
+}
+#main {
+    font-size: 1.1rem;
+}
+@media(min-width:992px) {
+    #main {
+        max-width: 720px !important;
+    }
+}
